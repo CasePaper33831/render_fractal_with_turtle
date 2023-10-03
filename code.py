@@ -41,4 +41,4 @@ def render_fractal(width, height, zoom, max_iter):
     turtle.title(f"Fractal (This took: {render_time:.2f} seconds to render)")
     turtle.done()
 
-render_fractal(1000, 1000, 1, 100)
+render_fractal(1000, 1000, 0.5, 100)
