@@ -17,7 +17,13 @@ def mandelbrot(c, max_iter):
             return i
     return max_iter
 
-def render_fractal(width, height, zoom, max_iter):
+def render_fractal():
+    popup_size = int(input("Enter pixel size (popup will be equal in length and width): "))
+    zoom = float(input("Enter zoom amount: "))
+    max_iter = int(input("Enter iteration amount: "))
+
+    width = height = popup_size
+
     turtle.setup(width=width, height=height)
     screen = turtle.Screen()
     screen.tracer(0)
@@ -38,7 +44,9 @@ def render_fractal(width, height, zoom, max_iter):
     end_time = time.time()
     render_time = end_time - start_time
     screen.update()
-    turtle.title(f"Fractal (This took: {render_time:.2f} seconds to render)")
+
+    turtle.title(f"Mandelbrot Fractal (Render Time: {render_time:.2f} seconds)")
+
     turtle.done()
 
-render_fractal(1000, 1000, 0.5, 100)
+render_fractal()
