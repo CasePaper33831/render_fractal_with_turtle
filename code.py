@@ -1,4 +1,6 @@
-'''TODO: 
+'''
+If you wish to have fun with the code, go ahead, have fun
+TODO: 
 user input for popup size and iterations
 '''
 import turtle
