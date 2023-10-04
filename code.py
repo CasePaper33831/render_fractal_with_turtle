@@ -1,7 +1,6 @@
 '''
 If you wish to have fun with the code, go ahead, have fun
-TODO: 
-popup for user input
+TODO: to be anounced
 
 FINIFHED:
 user input for popup size and iterations
