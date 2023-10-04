@@ -45,7 +45,7 @@ def render_fractal():
     render_time = end_time - start_time
     screen.update()
 
-    turtle.title(f"Mandelbrot Fractal (Render Time: {render_time:.2f} seconds)")
+    turtle.title(f"this took: {render_time:.2f} seconds to render")
 
     turtle.done()
 
